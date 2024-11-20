@@ -1,0 +1,70 @@
+
+
+   /*Container items*/
+.cover {
+    width: 336px;
+    height: 280px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    background: url(../images/funny.jpeg) no-repeat center ;
+    background-size:100%;
+}
+
+.container{
+	width:336px;
+	height:280px;
+	border: 5px solid steelblue;
+	position:absolute ;
+	left: 700px;
+	top: 400px;
+
+}
+
+.title{
+	font-size: 30px;
+	position: absolute;
+	left: 35%;
+	top:15px;
+	color:yellowgreen;
+	font-family:golos;
+
+}
+
+.text{
+	font-size: 15px;
+	position: absolute;
+	left: 0.1%;
+	top:195px;
+	transform: translate(-20%,-80%)
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	width: auto;
+	margin:20px;
+	margin-top: 10px;
+	border: 3px solid steelblue;
+	background: white;
+	color: yellowgreen;
+	font-family: golos;
+
+}
+
+@font-face{
+	font-family:golos;
+	src:url(../fonts/golos-text_vf.ttf);
+
+}
+
+.link {
+font-family: 'golos';
+font-size:15px;
+color: mediumpurple;
+text-align: center;
+margin: auto;
+margin-top: 60px;
+}
+
+
+
+
+
